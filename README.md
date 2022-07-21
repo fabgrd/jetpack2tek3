@@ -1,11 +1,13 @@
 To compile :
 
-./serverJ2T3 -g [gravity] -m [map] -p [port]
+    make
 
-./clientJ2T3 -h [host] -p [port]
-./clientJ2T3 -h [host] -p [port]
+    ./serverJ2T3 -g [gravity] -m [map] -p [port]
+
+    ./clientJ2T3 -h [host] -p [port]
+    ./clientJ2T3 -h [host] -p [port]
 
 
 Recommended map + gravity :
 
-./serverJ2T3 -g 5 -m server/map2 -p 4000
+    ./serverJ2T3 -g 5 -m server/map2 -p 4000
