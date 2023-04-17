@@ -1,13 +1,35 @@
-To compile :
 
-    make
+# JetPack2Tek3
 
-    ./serverJ2T3 -g [gravity] -m [map] -p [port]
-
-    ./clientJ2T3 -h [host] -p [port]
-    ./clientJ2T3 -h [host] -p [port]
+The goal of this project is to create a game like [Jetpack Joyride](https://en.wikipedia.org/wiki/Jetpack_Joyride) in C with a game server and a client program.
 
 
-Recommended map + gravity :
 
-    ./serverJ2T3 -g 5 -m server/map2 -p 4000
+## How to play
+Compile with Makefile
+```bash
+make
+
+./serverJ2T3 -g [gravity] -m [map] -p [port]
+```
+ 😏 *Here's a recommanded map & gravity*
+ ```bash
+ ./serverJ2T3 -g 5 -m server/map2 -p [port]
+  ```
+Open a new terminal for player 1...
+```bash
+./clientJ2T3 -h [host] -p [port]
+ ```
+ And in another one for player 2 !
+ ```bash
+./clientJ2T3 -h [host] -p [port]
+ ```
+
+ Here's a recommanded map & gravity 
+ ```bash
+ ./serverJ2T3 -g 5 -m server/map2 -p 4000
+  ```
+
+🕹 **Enjoy !**
+
+⚠ *Epitech students, this repo is here to inspire, not to copy. I won't be responsible if you get a -42* ⚠
