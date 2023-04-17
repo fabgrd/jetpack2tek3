@@ -25,11 +25,6 @@ Open a new terminal for player 1...
 ./clientJ2T3 -h [host] -p [port]
  ```
 
- Here's a recommanded map & gravity 
- ```bash
- ./serverJ2T3 -g 5 -m server/map2 -p 4000
-  ```
-
 🕹 **Enjoy !**
 
 ⚠ *Epitech students, this repo is here to inspire, not to copy. I won't be responsible if you get a -42* ⚠
